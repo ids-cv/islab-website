@@ -6,7 +6,7 @@ authors:
 - Tomoyuki Kajiwara
 - Mamoru Komachi
 date: '2018-01-01'
-publishDate: '2024-01-15T05:01:01.338465Z'
+publishDate: '2025-04-05T07:36:42.407866Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the Third Conference on Machine Translation: Shared

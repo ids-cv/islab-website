@@ -11,7 +11,7 @@ authors:
 - Masayuki Numao
 - Kazumitsu Shinohara
 date: '2021-09-01'
-publishDate: '2024-01-15T05:00:59.489677Z'
+publishDate: '2025-04-05T07:36:40.514485Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~International Conference on Image Processing (ICIP)*'

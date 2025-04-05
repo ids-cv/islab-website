@@ -10,7 +10,7 @@ authors:
 - Tomokazu Sato
 - Naokazu Yokoya
 date: '2017-01-01'
-publishDate: '2024-01-15T05:01:01.649287Z'
+publishDate: '2025-04-05T07:36:42.720832Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - International Conference on Multimedia Modeling (MMM)*'

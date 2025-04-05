@@ -10,7 +10,7 @@ authors:
 - Kenro Aihara
 - Noriko Kando
 date: '2021-11-01'
-publishDate: '2024-01-15T05:01:01.066995Z'
+publishDate: '2025-04-05T07:36:42.137489Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~ACM International Conference on Multimedia Retrieval (ICMR)*'

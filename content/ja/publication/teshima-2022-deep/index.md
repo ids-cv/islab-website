@@ -8,7 +8,7 @@ authors:
 - Hiroshi Kawasaki
 - Katsushi Ikeuchi
 date: '2022-01-01'
-publishDate: '2024-01-15T05:01:00.940637Z'
+publishDate: '2025-04-05T07:36:42.017038Z'
 publication_types:
 - paper-conference
 publication: '*2022 IEEE/RSJ International Conference on Intelligent Robots and Systems

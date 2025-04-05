@@ -12,7 +12,7 @@ authors:
 - Jueren Wang
 - Yutaka Fujioka
 date: '2019-01-01'
-publishDate: '2024-01-15T05:00:59.865246Z'
+publishDate: '2025-04-05T07:36:40.892184Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 27th ACM International Conference on Multimedia

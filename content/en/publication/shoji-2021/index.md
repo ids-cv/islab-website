@@ -12,7 +12,7 @@ authors:
 - Takehiro Yamamoto
 - Yusuke Yamamoto
 date: '2021-09-01'
-publishDate: '2024-01-15T05:00:59.434673Z'
+publishDate: '2025-04-05T07:36:40.458892Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~ACM/IEEE Joint Conference on Digital Libraries (JCDL)*'
