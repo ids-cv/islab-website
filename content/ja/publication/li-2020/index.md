@@ -8,7 +8,7 @@ authors:
 - Hajime Nagahara
 - Ryo Kawasaki
 date: '2020-01-01'
-publishDate: '2024-01-15T05:01:01.402560Z'
+publishDate: '2025-04-05T07:36:42.472477Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - The IEEE Winter Conference on Applications of Computer

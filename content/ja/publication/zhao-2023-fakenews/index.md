@@ -7,7 +7,7 @@ authors:
 - Haiyuan Chen
 - Noboru Babaguchi
 date: '2023-01-01'
-publishDate: '2024-01-15T05:01:00.794339Z'
+publishDate: '2025-04-05T07:36:41.869673Z'
 publication_types:
 - paper-conference
 publication: '*Proc. ACM International Conference on Multimedia*'

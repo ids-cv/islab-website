@@ -7,7 +7,7 @@ authors:
 - Taichi Furukawa
 - Norihiko Nishizawa
 date: '2019-07-01'
-publishDate: '2024-01-15T05:00:59.773086Z'
+publishDate: '2025-04-05T07:36:40.800017Z'
 publication_types:
 - article-journal
 publication: '*Journal of Biomedical Optics*'

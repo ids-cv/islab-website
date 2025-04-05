@@ -7,7 +7,7 @@ authors:
 - Yukinobu Sugiyama
 - Rin Ichiro Taniguchi
 date: '2016-06-01'
-publishDate: '2024-01-15T05:01:01.496076Z'
+publishDate: '2025-04-05T07:36:42.566615Z'
 publication_types:
 - paper-conference
 publication: '*2016 IEEE International Conference on Computational Photography, ICCP

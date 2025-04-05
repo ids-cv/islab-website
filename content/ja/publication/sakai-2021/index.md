@@ -7,7 +7,7 @@ authors:
 - Toshiaki Fujii
 - Hajime Nagahara
 date: '2021-01-01'
-publishDate: '2024-01-15T05:01:01.135894Z'
+publishDate: '2025-04-05T07:36:42.207477Z'
 publication_types:
 - article-journal
 publication: '*ITE Transactions on Media Technology and Applications*'

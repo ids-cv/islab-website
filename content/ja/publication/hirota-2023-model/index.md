@@ -5,7 +5,7 @@ authors:
 - Yuta Nakashima
 - Noa Garcia
 date: '2023-06-01'
-publishDate: '2024-01-15T05:01:00.851523Z'
+publishDate: '2025-04-05T07:36:41.927237Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition

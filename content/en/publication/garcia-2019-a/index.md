@@ -5,7 +5,7 @@ authors:
 - Benjamin Renoust
 - Yuta Nakashima
 date: '2019-01-01'
-publishDate: '2024-01-15T05:01:00.125635Z'
+publishDate: '2025-04-05T07:36:41.152053Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 2019 ACM International Conference on Multimedia

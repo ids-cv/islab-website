@@ -14,7 +14,7 @@ authors:
 - Jun Miyake
 - Noriyuki Tomiyama
 date: '2019-06-01'
-publishDate: '2024-01-15T05:01:00.169116Z'
+publishDate: '2025-04-05T07:36:41.195553Z'
 publication_types:
 - article-journal
 publication: '*Medicine*'

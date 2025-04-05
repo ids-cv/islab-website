@@ -8,7 +8,7 @@ authors:
 - Toshiaki Fujii
 - Hajime Nagahara
 date: '2019-09-01'
-publishDate: '2024-01-15T05:01:01.670241Z'
+publishDate: '2025-04-05T07:36:42.742099Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - International Conference on Image Processing, ICIP*'

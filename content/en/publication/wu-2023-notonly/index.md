@@ -6,7 +6,7 @@ authors:
 - Yuta Nakashima
 - Noa Garcia
 date: '2023-06-01'
-publishDate: '2024-01-15T05:00:59.232709Z'
+publishDate: '2025-04-05T07:36:40.255140Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~ 2023 ACM International Conference on Multimedia Retrieval (ICMR)*'
