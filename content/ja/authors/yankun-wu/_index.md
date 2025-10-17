@@ -2,7 +2,7 @@
 # Display name
 title: "Yankun Wu"
 
-weight: 1022120
+weight: 70
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,12 +12,13 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 博士後期課程学生
+role: 特任研究員
+group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
-- name: "情報科学研究科"
-  url: "http://www.ist.osaka-u.ac.jp/"
+- name: "D3センター"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
@@ -67,7 +68,9 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 学生
+- 研究員
+- 専任
+
 ---
 ### Contact
 - email: yankun@is.ids.

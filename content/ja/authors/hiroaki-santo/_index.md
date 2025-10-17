@@ -28,7 +28,10 @@ bio:
 
 # List each interest with a dash
 interests:
-
+- コンピュータビジョン
+- 3Dビジョン
+- コンピュテーショナルフォトグラフィ
+- Physics-based Vision
 
 #education:
 #  courses:

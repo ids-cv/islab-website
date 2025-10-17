@@ -28,9 +28,10 @@ bio: Hiroaki Santo is an associate professor with D3 Center, Osaka University.
 
 # List each interest with a dash
 interests:
-- Machine Learning
-- Pattern Recognition
 - Computer Vision
+- 3D Vision
+- Computational Photography
+- Physics-based Vision
 
 #education:
 #  courses:
