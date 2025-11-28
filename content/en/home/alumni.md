@@ -1,23 +1,21 @@
 +++
-# A "Meet the Team" section created with the People widget.
-# This section displays people from `content/authors/` which belong to the `user_groups` below.
+# Alumni section created with the People widget.
+# This section displays alumni from `content/authors/` which belong to the `user_groups` below.
 
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 68  # Order that this section will appear.
+active = false  # Activate this widget? true/false
+weight = 69  # Order that this section will appear (after people section).
 
-title = "People"
-subtitle = "[View Alumni →](alumni)"
+title = "Alumni"
+subtitle = ""
 
 [content]
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Faculty",
-                 "Researchers",
-                 "Guest Researchers",
-                 "Students",
-                 "Visitors"]
+  user_groups = ["Faculty Alumni",
+                 "Visiting Researcher Alumni",
+                 "Student Alumni"]
 
 [design]
   # Show user's social networking links? (true/false)
@@ -31,25 +29,25 @@ subtitle = "[View Alumni →](alumni)"
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-  
+
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
-  
+
   # Background image.
   # image = "background.jpg"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
-  
+  # text_color_light = true
+
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 +++

@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 68  # Order that this section will appear.
 
 title = "メンバー"
-subtitle = ""
+subtitle = "[卒業生・修了生を見る →](alumni)"
 
 [content]
   # Choose which groups/teams of users to display.

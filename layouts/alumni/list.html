@@ -1,0 +1,172 @@
+{{ define "main" }}
+<div class="universal-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}
+        <div class="article-style">{{ . }}</div>
+      {{ end }}
+
+      {{ $data_file := "alumni_en.yaml" }}
+      {{ if eq .Lang "ja" }}
+        {{ $data_file = "alumni_ja.yaml" }}
+      {{ end }}
+      {{ $resource := .Resources.GetMatch $data_file }}
+      {{ $alumni := dict }}
+      {{ if $resource }}
+        {{ $alumni = $resource | transform.Unmarshal }}
+      {{ end }}
+
+      {{ if eq .Lang "ja" }}
+        <!-- Japanese Version -->
+        <h2>教員</h2>
+        {{ if $alumni.faculty }}
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>氏名</th>
+                <th>役職</th>
+                <th>在籍期間</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $alumni.faculty }}
+                <tr>
+                  <td>{{ .name }}</td>
+                  <td>{{ .position }}</td>
+                  <td>{{ .period }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        {{ else }}
+          <p>データがありません。</p>
+        {{ end }}
+
+        <h2>招へい研究員</h2>
+        {{ if $alumni.guest_researchers }}
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>氏名</th>
+                <th>役職</th>
+                <th>在籍期間</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $alumni.guest_researchers }}
+                <tr>
+                  <td>{{ .name }}</td>
+                  <td>{{ .position }}</td>
+                  <td>{{ .period }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        {{ else }}
+          <p>データがありません。</p>
+        {{ end }}
+
+        <h2>学生</h2>
+        {{ if $alumni.students }}
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>氏名</th>
+                <th>役職</th>
+                <th>在籍期間</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $alumni.students }}
+                <tr>
+                  <td>{{ .name }}</td>
+                  <td>{{ .position }}</td>
+                  <td>{{ .period }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        {{ else }}
+          <p>データがありません。</p>
+        {{ end }}
+
+      {{ else }}
+        <!-- English Version -->
+        <h2>Faculty</h2>
+        {{ if $alumni.faculty }}
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Period of Affiliation</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $alumni.faculty }}
+                <tr>
+                  <td>{{ .name }}</td>
+                  <td>{{ .position }}</td>
+                  <td>{{ .period }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        {{ else }}
+          <p>No data available.</p>
+        {{ end }}
+
+        <h2>Guest Researchers</h2>
+        {{ if $alumni.guest_researchers }}
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Period of Affiliation</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $alumni.guest_researchers }}
+                <tr>
+                  <td>{{ .name }}</td>
+                  <td>{{ .position }}</td>
+                  <td>{{ .period }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        {{ else }}
+          <p>No data available.</p>
+        {{ end }}
+
+        <h2>Students</h2>
+        {{ if $alumni.students }}
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Period of Affiliation</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $alumni.students }}
+                <tr>
+                  <td>{{ .name }}</td>
+                  <td>{{ .position }}</td>
+                  <td>{{ .period }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        {{ else }}
+          <p>No data available.</p>
+        {{ end }}
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+{{ end }}
