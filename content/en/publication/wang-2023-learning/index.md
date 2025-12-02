@@ -6,7 +6,7 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 date: '2023-06-01'
-publishDate: '2025-12-02T00:44:13.453212Z'
+publishDate: '2025-12-02T05:07:23.078934Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition

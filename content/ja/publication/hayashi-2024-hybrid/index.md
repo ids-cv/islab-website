@@ -1,13 +1,13 @@
 ---
-title: A hybrid of generative and discriminative models based on the Gaussian-coupled
-  softmax layer
+title: A Hybrid of Generative and Discriminative Models Based on the Gaussian-coupled
+  Softmax Layer
 authors:
 - Hideaki Hayashi
-date: '2024-01-01'
-publishDate: '2025-12-02T00:44:15.000135Z'
+date: '2025-01-01'
+publishDate: '2025-12-02T05:07:24.644105Z'
 publication_types:
 - article-journal
-publication: '*IEEE transactions on neural networks and learning systems*'
+publication: '*IEEE Transactions on Neural Networks and Learning Systems*'
 abstract: Generative models offer advantageous characteristics for classification
   tasks, such as the availability of unsupervised data and calibrated confidence.
   In contrast, discriminative models have advantages in terms of their potential to

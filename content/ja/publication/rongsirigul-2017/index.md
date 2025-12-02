@@ -7,7 +7,7 @@ authors:
 - Tomokazu Sato
 - Naokazu Yokoya
 date: '2017-08-01'
-publishDate: '2025-12-02T00:44:16.041115Z'
+publishDate: '2025-12-02T05:07:25.788573Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - IEEE International Conference on Multimedia and Expo*'

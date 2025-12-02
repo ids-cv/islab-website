@@ -10,7 +10,7 @@ authors:
 - Hiroshi Kawasaki
 - Katsushi Ikeuchi
 date: '2022-01-01'
-publishDate: '2025-12-02T00:44:15.291220Z'
+publishDate: '2025-12-02T05:07:25.039501Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~IEEE/SICE International Symposium on System Integration (SII)*'

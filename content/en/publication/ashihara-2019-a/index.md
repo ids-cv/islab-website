@@ -6,7 +6,7 @@ authors:
 - Yuki Arase
 - Satoru Uchida
 date: '2019-12-01'
-publishDate: '2025-12-02T00:44:14.395764Z'
+publishDate: '2025-12-02T05:07:24.012423Z'
 publication_types:
 - article-journal
 publication: '*Journal of Natural Language Processing*'

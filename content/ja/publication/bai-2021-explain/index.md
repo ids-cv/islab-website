@@ -5,7 +5,7 @@ authors:
 - Yuta Nakashima
 - Noa Garcia
 date: '2021-10-01'
-publishDate: '2025-12-02T00:44:15.334352Z'
+publishDate: '2025-12-02T05:07:25.083098Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~IEEE/CVF International Conference on Computer Vision (ICCV)*'

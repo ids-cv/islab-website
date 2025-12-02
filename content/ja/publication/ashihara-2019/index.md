@@ -6,7 +6,7 @@ authors:
 - Yuki Arase
 - Satoru Uchida
 date: '2019-01-01'
-publishDate: '2025-12-02T00:44:15.948810Z'
+publishDate: '2025-12-02T05:07:25.699214Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 5th Workshop on Noisy User-generated Text (W-NUT

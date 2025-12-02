@@ -15,7 +15,7 @@ authors:
 - Jun Miyake
 - Tetsuro Takamatsu
 date: '2019-12-01'
-publishDate: '2025-12-02T00:44:15.723591Z'
+publishDate: '2025-12-02T05:07:25.475014Z'
 publication_types:
 - article-journal
 publication: '*Scientific Reports*'

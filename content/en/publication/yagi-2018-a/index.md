@@ -7,7 +7,7 @@ authors:
 - Toshiki Sonoda
 - Hajime Nagahara
 date: '2018-02-01'
-publishDate: '2025-12-02T00:44:13.930595Z'
+publishDate: '2025-12-02T05:07:23.549759Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - International Conference on Image Processing, ICIP*'

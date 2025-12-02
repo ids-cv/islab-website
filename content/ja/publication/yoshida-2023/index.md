@@ -8,7 +8,7 @@ authors:
 - Hajime Nagahara
 - Yasushi Yagi
 date: '2023-01-01'
-publishDate: '2025-12-02T00:44:15.076759Z'
+publishDate: '2025-12-02T05:07:24.824668Z'
 publication_types:
 - article-journal
 publication: '*MDPI Sensors*'

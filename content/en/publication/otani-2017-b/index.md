@@ -6,7 +6,7 @@ authors:
 - Esa Rahtu
 - Janne Heikkilä
 date: '2017-01-01'
-publishDate: '2025-12-02T00:44:14.054464Z'
+publishDate: '2025-12-02T05:07:23.672347Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - Open Knowledge Base and Question Answering Workshop at

@@ -5,7 +5,7 @@ authors:
 - Trung Thanh Ngo
 - Hajime Nagahara
 date: '2023-01-01'
-publishDate: '2025-12-02T00:44:15.127679Z'
+publishDate: '2025-12-02T05:07:24.876998Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern

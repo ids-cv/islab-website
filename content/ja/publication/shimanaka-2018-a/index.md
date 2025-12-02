@@ -6,7 +6,7 @@ authors:
 - Tomoyuki Kajiwara
 - Mamoru Komachi
 date: '2018-01-01'
-publishDate: '2025-12-02T00:44:15.987241Z'
+publishDate: '2025-12-02T05:07:25.735819Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the NAACL 2018 Student Research Workshop (NAACL 2018

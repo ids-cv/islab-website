@@ -10,7 +10,7 @@ authors:
 - Hajime Nagahara
 - Takao Fujikawa
 date: '2019-12-01'
-publishDate: '2025-12-02T00:44:15.529679Z'
+publishDate: '2025-12-02T05:07:25.281059Z'
 publication_types:
 - paper-conference
 publication: '*人文科学とコンピュータシンポジウム2019*'

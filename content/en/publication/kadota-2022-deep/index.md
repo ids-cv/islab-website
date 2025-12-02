@@ -1,0 +1,31 @@
+---
+title: Deep Bayesian Active Learning to Rank for Endoscopic Image Data
+authors:
+- Takeaki Kadota
+- Hideaki Hayashi
+- Ryoma Bise
+- Kiyohito Tanaka
+- Seiichi Uchida
+date: '2022-01-01'
+publishDate: '2025-12-02T05:07:22.984709Z'
+publication_types:
+- paper-conference
+publication: '*Proceedings of the 26th UK Conference on Medical Image Understanding
+  and Analysis (MIUA 2022)*'
+abstract: Automatic image-based disease severity estimation generally uses discrete
+  (i.e., quantized) severity labels. Annotating discrete labels is often difficult
+  due to the images with ambiguous severity. An easier alternative is to use relative
+  annotation, which compares the severity level between image pairs. By using a learning-to-rank
+  framework with relative annotation, we can train a neural network that estimates
+  rank scores that are relative to severity levels. However, the relative annotation
+  for all possible pairs is prohibitive, and therefore, appropriate sample pair selection
+  is mandatory. This paper proposes a deep Bayesian active-learning-to-rank, which
+  trains a Bayesian convolutional neural network while automatically selecting appropriate
+  pairs for relative annotation. We confirmed the efficiency of the proposed method
+  through experiments on endoscopic images of ulcerative colitis. In addition, we
+  confirmed that our method is useful even with the severe class imbalance because
+  of its ability to select samples from minor classes automatically.
+links:
+- name: URL
+  url: https://link.springer.com/chapter/10.1007/978-3-031-12053-4_45
+---
