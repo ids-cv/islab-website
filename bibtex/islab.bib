@@ -1,15 +1,158 @@
 @article{hayashi2024hybrid,
-  title={A hybrid of generative and discriminative models based on the Gaussian-coupled softmax layer},
+  title={A Hybrid of Generative and Discriminative Models Based on the Gaussian-coupled Softmax Layer},
   abstract={Generative models offer advantageous characteristics for classification tasks, such as the availability of unsupervised data and calibrated confidence. In contrast, discriminative models have advantages in terms of their potential to outperform their generative counterparts and the simplicity of their model structures and learning algorithms. In this article, we propose a method to train a hybrid of discriminative and generative models in a single neural network (NN), which exhibits the characteristics of both models. The key idea is the Gaussian-coupled softmax layer, which is a fully connected layer with a softmax activation function coupled with Gaussian distributions. This layer can be embedded into an NN-based classifier and allows the classifier to estimate both the class posterior distribution and the input data distribution. We demonstrate that the proposed hybrid model can be applied to semi-supervised learning and confidence calibration.},
   author={Hayashi, Hideaki},
-  journal={IEEE transactions on neural networks and learning systems},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
   volume={36},
   number={2},
   pages={2894--2904},
-  year={2024},
+  year={2025},
   publisher={IEEE},
   URL={https://ieeexplore.ieee.org/document/10423259}
 }
+
+
+@article{kadota2024deep,
+  title={Deep Bayesian Active Learning-to-Rank with Relative Annotation for Estimation of Ulcerative Colitis Severity},
+  abstract={Automatic image-based severity estimation is an important task in computer-aided diagnosis. Severity estimation by deep learning requires a large amount of training data to achieve a high performance. In general, severity estimation uses training data annotated with discrete (i.e., quantized) severity labels. Annotating discrete labels is often difficult in images with ambiguous severity, and the annotation cost is high. In contrast, relative annotation, in which the severity between a pair of images is compared, can avoid quantizing severity and thus makes it easier. We can estimate relative disease severity using a learning-to-rank framework with relative annotations, but relative annotation has the problem of the enormous number of pairs that can be annotated. Therefore, the selection of appropriate pairs is essential for relative annotation. In this paper, we propose a deep Bayesian active learning-to-rank that automatically selects appropriate pairs for relative annotation. Our method preferentially annotates unlabeled pairs with high learning efficiency from the model uncertainty of the samples. We prove the theoretical basis for adapting Bayesian neural networks to pairwise learning-to-rank and demonstrate the efficiency of our method through experiments on endoscopic images of ulcerative colitis on both private and public datasets. We also show that our method achieves a high performance under conditions of significant class imbalance because it automatically selects samples from the minority classes.},
+  author={Kadota, Takeaki and Hayashi, Hideaki and Bise, Ryoma and Tanaka, Kiyohito and Uchida, Seiichi},
+  journal={Medical Image Analysis},
+  volume={97},
+  pages={103262},
+  year={2024},
+  publisher={Elsevier},
+  URL={https://doi.org/10.1016/j.media.2024.103262}
+}
+
+@article{hayashi2022human,
+  title={Human--Machine Interfaces Based on Bioelectric Signals: A Narrative Review with a Novel System Proposal},
+  abstract={Bioelectric signals such as electromyogram (EMG) and electroencephalogram (EEG) reflect human internal states and intended actions, and have therefore been applied to various types of human–machine interfaces. Such biosignal-based interfaces are beneficial because they not only allow intuitive control of machines, but can also support persons with disabilities. In this paper, we review the recent studies on human–machine interfaces based on bioelectric signals including EMG and EEG signals. Furthermore, we introduce our recent work on the development of a brain–machine interface for domestic appliance control.},
+  author={Hayashi, Hideaki and Tsuji, Toshio},
+  journal={IEEJ Transactions on Electrical and Electronic Engineering},
+  volume={17},
+  number={11},
+  pages={1536--1544},
+  year={2022},
+  publisher={Wiley},
+  URL={https://doi.org/10.1002/tee.23646}
+}
+
+@inproceedings{ashida2025applicability,
+  title={Applicability of Facial Video-Based Alertness Estimation Model in Real Online and In-Person Classrooms},
+  abstract={Accurately capturing learners’ internal states is essential in modern educational environments to support effective teaching and the design of appropriate learning content. Various methods have been proposed for estimating such internal states, with recent approaches increasingly relying on machine learning techniques.
+However, models trained under specific conditions often fail to generalize to different instructional settings. To be practically useful, these models should be applicable across diverse learning environments, including e-learning, synchronous video-based instruction, and in-person classes. Nonetheless, few studies have evaluated internal state estimation models by transferring them from their training conditions to substantially different and operationally realistic educational settings. In this study, we investigate the effectiveness of our internal state estimation model by applying it in authentic classroom settings. The model estimates learners' alertness based on facial video, specifically focusing on the eye region, and was trained using data collected in a controlled e-learning environment. The evaluation was conducted using data obtained from real educational contexts, including both synchronous online classes and traditional in-person classroom sessions. This setting allowed us to assess the model’s robustness across multiple instructional formats that reflect current hybrid learning environments. We compared the model’s predictions to human-annotated labels indicating whether learners appeared to be asleep, using receiver operating characteristic (ROC) curves and area under the curve (AUC) scores. The results suggest that the model has the potential to function effectively even when applied to data collected in real-world instructional scenarios.},
+  author={Ashida, Atsushi and Kawamura, Ryosuke and Hayashi, Hideaki and Nagahara, Hajime},
+  booktitle={Proceedings of the International Conference on Computers in Education (ICCE 2025)},
+  year={2025},
+  URL={https://code.iitm.ac.in/code-programs/icce2025/icce-schedule}
+}
+
+@inproceedings{panic2025impact,
+  title={Impact of Experimental Design in Age Prediction from Retinal Fundus Images},
+  abstract={Artificial intelligence (AI) provides promising insights to improve and support medical diagnostics. However, the design of AI systems can strongly affect the performance in clinical applications. This study aims to evaluate the impact of different design parameters, including image pre-processing, network architectures, loss functions, transfer learning, and data augmentation. As a case study, we focused on the prediction of age from retinal fundus images, which has been proven to be a crucial biomarker for general health screening. Considering all parameter combinations, we developed 144 models using UK Biobank images. Our preliminary analysis shows the critical influence of network architecture and training strategies, highlighting the need for careful selection tailored to the specific task and available data. Moreover, we demonstrate that certain image pre-processing approaches may not generalize well across different tasks and are not optimal for retinal age prediction. Our findings contribute to and offer valuable insights for standardized AI system design in medicine, contributing to improved reproducibility and reliability in the clinical domain.},
+  author={Panic, Jovana and Watanabe, Atsushi and Hayashi, Hideaki and Nakashima, Yuta and Nishida, Kohji and Nagahara, Hajime},
+  booktitle={Proceedings of the 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+  year={2025},
+  URL={https://www.researchgate.net/publication/394539516_Impact_of_Experimental_Design_in_Age_Prediction_from_Retinal_Fundus_Images}
+}
+
+@inproceedings{deng2025gaussian,
+  title={Gaussian-Based Instance-Adaptive Intensity Modeling for Point-Supervised Facial Expression Spotting},
+  abstract={Point-supervised facial expression spotting (P-FES) aims to localize facial expression instances in untrimmed videos, requiring only a single timestamp label for each instance during training. To address label sparsity, hard pseudo-labeling is often employed to propagate point labels to unlabeled frames; however, this approach can lead to confusion when distinguishing between neutral and expression frames with various intensities, which can negatively impact model performance. In this paper, we propose a two-branch framework for P-FES that incorporates a Gaussian-based instance-adaptive Intensity Modeling (GIM) module for soft pseudo-labeling. GIM models the expression intensity distribution for each instance. Specifically, we detect the pseudo-apex frame around each point label, estimate the duration, and construct a Gaussian distribution for each expression instance. We then assign soft pseudo-labels to pseudo-expression frames as intensity values based on the Gaussian distribution. Additionally, we introduce an Intensity-Aware Contrastive (IAC) loss to enhance discriminative feature learning and suppress neutral noise by contrasting neutral frames with expression frames of various intensities. Extensive experiments on the SAMM-LV and CAS(ME) datasets demonstrate the effectiveness of our proposed framework. Code is available at https://github.com/KinopioIsAllIn/GIM.},
+  author={Deng, Yicheng and Hayashi, Hideaki and Nagahara, Hajime},
+  booktitle={Proceedings of the 13th International Conference on Learning Representations (ICLR 2025)},
+  year={2025},
+  URL={https://openreview.net/forum?id=daD6uGMeLs}
+}
+
+@inproceedings{yonei2025non,
+  title={Non-Negative Tensor Factorization of Infant Spontaneous Movements: A Pilot Study for ASD Risk Evaluation of Newborn Infants},
+  abstract={Early detection of infants with autism spectrum disorder (ASD) can lead to effective developmental support. In clinical practice, early screening of 18-month-old infants is implemented using a parent-completed questionnaire. However, research has suggested that signs of ASD may also appear in movement characteristics during the first few months of age. In this paper, we propose a method to evaluate infant movement from videos based on non-negative tensor factorization (NTF) and apply it to ASD risk assessment in the neonatal period. The proposed method applies NTF to pose data estimated from videos, and decomposes the infant’s movements into multiple components while considering the linkage between body parts. In the experiment, we evaluated the effectiveness of the proposed method using 36 low-risk infants and 13 high-risk infants for ASD, with the aim of applying the method to ASD risk assessment. The results showed that the proposed method captured the tendency for infants to perform different movements depending on their risk level. Machine learning analysis revealed that the proposed method identified ASD risk with an accuracy exceeding 70%, which was comparable or superior to the existing video evaluation method based on heuristically designed indicators.},
+  author={Yonei, Rikuya and Furui, Akira and Doi, Hirokazu and Shimatani, Koji and Hayashi, Hideaki and Yamamoto, Midori and Sakurai, Kenichi and Mori, Chisato and Tsuji, Toshio},
+  booktitle={Proceedings of the IEEE/SICE International Symposium on System Integration (SII 2025)},
+  pages={275--280},
+  year={2025},
+  publisher={IEEE},
+  URL={https://ieeexplore.ieee.org/document/10871109}
+}
+
+@inproceedings{ueda2025discriminative,
+  title={Discriminative Analysis of Autistic Tendencies at 18 Months of Age Using Eye Gaze Characteristics in 4-, 10-, and 18-month-old Infants},
+  abstract={Anomalies in motor function and social communication skills constitute early signs of autism spectrum disorder (ASD). In recent years, researchers have paid attention to the possibility of the quantitatively evaluating infants’ social communication skills based on their eye movement. In this paper, we attempt to evaluate ASD risk using infants’ eye movement data by examining the relationship between eye movement patterns at 4, 10, and 18 months of age and ASD risk as assessed by caregivers using a checklist at 18 months of age. A total of 18 eye movement indices were calculated from eye movement data measured by an optical eye tracker. The results revealed an association between ASD risk and eye movement indices. The indices included those related to a preference for social information at 4 months of age, those related to visual exploration of images at 10 months of age, and those indices related to both preference and visual exploration at 18 months of age. These results indicate that eye movement analysis may potentially serve as a means for early screening of ASD risk.},
+  author={Ueda, Rena and Doi, Hirokazu and Furui, Akira and Shimatani, Koji and Hayashi, Hideaki and Tsuji, Toshio},
+  booktitle={Proceedings of the IEEE/SICE International Symposium on System Integration (SII 2025)},
+  pages={265--270},
+  year={2025},
+  publisher={IEEE},
+  URL={https://ieeexplore.ieee.org/document/10870970/}
+}
+
+@inproceedings{sato2025multi,
+  title={Multi-Task Learning of Classification and Generation for Set-Structured Data},
+  abstract={In this study we propose a multi-task learning model of classification and generation for set-structured data. The proposed model learns data generation and classification in a single neural network by integrating a classification layer into a variational autoencoder while maintaining permutation invariance and equivariance nature which are characteristics of set-structured data. The proposed model allows for semi-supervised learning in set-structured data classification and can also be applied to confidence calibration using the input data distribution estimated by the generative model. In the experiments we evaluated the performance of the proposed model in a semi-supervised classification task on set-structured datasets and compared it with a baseline model consisting only of a classifier. The results demonstrated that simultaneous learning of the classification and generation effectively improves the classification accuracy and confidence reliability for set-structured data even with a limited number of labeled data.},
+  author={Sato, Fumioki and Hayashi, Hideaki and Nagahara, Hajime},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages={6741--6751},
+  year={2025},
+  URL={https://openaccess.thecvf.com/content/WACV2025/html/Sato_Multi-Task_Learning_of_Classification_and_Generation_for_Set-Structured_Data_WACV_2025_paper.html}
+}
+
+@inproceedings{ashida2024internal,
+  title={Is Internal State Feedback in an E-learning Environment Acceptable to People?},
+  abstract={In on-demand e-learning environments, the lack of direct intervention can lead to a decline in learners' engagement. To address this issue, systems that estimate the learners' attitudes and provide feedback have been proposed. However, the acceptability of such systems has not been sufficiently researched. In this study, we investigated the acceptability by people to an e-learning system with internal state feedback, for future personalized learning support. To this end, we developed a system that estimates and visualizes the learner's internal state in real-time. The system was exhibited in a public space for free use, and users' impressions were analyzed. To estimate the learners' internal state, we developed a machine-learning model that recognizes learners' alertness from facial videos. The system was deployed in an exhibition space, and 131 responses were collected. These responses were coded and analyzed using a co-occurrence network. The result indicated that learners tend to dislike the system due to feelings of being observed by supervisors. In contrast, instructors expressed favorable options toward the introduction of the system.},
+  author={Ashida, Atsushi and Kawamura, Ryosuke and Shirai, Shizuka and Takemura, Noriko and Alizadeh, Mehrasa and Hayashi, Hideaki and Nagahara, Hajime},
+  booktitle={Proceedings of the International Conference on Computers in Education (ICCE 2024)},
+  year={2024},
+  URL={https://www.researchgate.net/publication/388210244_Is_Internal_State_Feedback_in_an_E-Learning_Environment_Acceptable_to_People}
+}
+
+@inproceedings{querol2024calico,
+  title={CALICO: Confident Active Learning with Integrated Calibration},
+  abstract={The growing use of deep learning in safety-critical applications, such as medical imaging, has raised concerns about limited labeled data, where this demand is amplified as model complexity increases, posing hurdles for domain experts to annotate data. In response to this, active learning (AL) is used to efficiently train models with limited annotation costs. In the context of deep neural networks (DNNs), AL often uses confidence or probability outputs as a score for selecting the most informative samples. However, modern DNNs exhibit unreliable confidence outputs, making calibration essential. We propose an AL framework that self-calibrates the confidence used for sample selection during the training process, referred to as Confident Active Learning with Integrated CalibratiOn (CALICO). CALICO incorporates the joint training of a classifier and an energy-based model, instead of the standard softmax-based classifier. This approach allows for simultaneous estimation of the input data distribution and the class probabilities during training, improving calibration without needing an additional labeled dataset. Experimental results showcase improved classification performance compared to a softmax-based classifier with fewer labeled samples. Furthermore, the calibration stability of the model is observed to depend on the prior class distribution of the data.},
+  author={Querol, Lorenzo and Nagahara, Hajime and Hayashi, Hideaki},
+  booktitle={Proceedings of the International Conference on Artificial Neural Networks (ICANN 2024)},
+  year={2024},
+  URL={https://dl.acm.org/doi/10.1007/978-3-031-72332-2_9}
+}
+
+@inproceedings{toba2024pseudo,
+  title={Pseudo-Label Learning with Calibrated Confidence Using an Energy-Based Model},
+  abstract={In pseudo-labeling (PL), which is a type of semi-supervised learning, pseudo-labels are assigned based on the confidence scores provided by the classifier; therefore, accurate confidence is important for successful PL. In this study, we propose a PL algorithm based on an energy-based model (EBM), which is referred to as the energy-based PL (EBPL). In EBPL, a neural network-based classifier and an EBM are jointly trained by sharing their feature extraction parts. This approach enables the model to learn both the class decision boundary and input data distribution, enhancing confidence calibration during network training. The experimental results demonstrate that EBPL outperforms the existing PL method in semi-supervised image classification tasks, with superior confidence calibration error and recognition accuracy.},
+  author={Toba, Masahito and Uchida, Seiichi and Hayashi, Hideaki},
+  booktitle={Proceedings of the IEEE World Congress on Computational Intelligence (WCCI 2024)},
+  year={2024},
+  URL={https://ieeexplore.ieee.org/document/10650805}
+}
+
+@inproceedings{deng2024multi,
+  title={Multi-Scale Spatio-Temporal Graph Convolutional Network for Facial Expression Spotting},
+  abstract={Facial expression spotting is a significant but challenging task in facial expression analysis. The accuracy of expression spotting is affected not only by irrelevant facial movements but also by the difficulty of perceiving subtle motions in micro-expressions. In this paper, we propose a Multi-Scale Spatio-Temporal Graph Convolutional Network (SpoT-GCN) for facial expression spotting. To extract more robust motion features, we track both short- and long-term motion of facial muscles in compact sliding windows whose window length adapts to the temporal receptive field of the network. This strategy, termed the receptive field adaptive sliding window strategy, effectively magnifies the motion features while alleviating the problem of severe head movement. The subtle motion features are then converted to a facial graph representation, whose spatio-temporal graph patterns are learned by a graph convolutional network. This network learns both local and global features from multiple scales of facial graph structures using our proposed facial local graph pooling (FLGP). Furthermore, we introduce supervised contrastive learning to enhance the discriminative capability of our model for difficult-to-classify frames. The experimental results on the SAMM-LV and CAS(ME)2 datasets demonstrate that our method achieves state-of-the-art performance, particularly in micro-expression spotting. Ablation studies further verify the effectiveness of our proposed modules.},
+  author={Deng, Yicheng and Hayashi, Hideaki and Nagahara, Hajime},
+  booktitle={Proceedings of the International Conference on Automatic Face and Gesture Recognition (FG 2024)},
+  year={2024},
+  URL={https://ieeexplore.ieee.org/document/10581968}
+}
+
+@inproceedings{yasukochi2023analyzing,
+  title={Analyzing Font Style Usage and Contextual Factors in Real Images},
+  abstract={There are various font styles in the world. Different styles give different impressions and readability. This paper analyzes the relationship between font styles and contextual factors that might affect font style selection with large-scale datasets. For example, we will analyze the relationship between font style and its surrounding object (such as “bus”) by using about 800,000 words in the Open Images dataset. We also use a book cover dataset to analyze the relationship between font styles with book genres. Moreover, the meaning of the word is assumed as another contextual factor. For these numeric analyses, we utilize our own font-style feature extraction model and word2vec. As a result of co-occurrence-based relationship analysis, we found several instances of specific font styles being used for specific contextual factors.},
+  author={Yasukochi, Naoya and Hayashi, Hideaki and Haraguchi, Daichi and Uchida, Seiichi},
+  booktitle={Proceedings of the 17th International Conference on Document Analysis and Recognition (ICDAR 2023)},
+  pages={331--347},
+  year={2023},
+  URL={https://link.springer.com/chapter/10.1007/978-3-031-41682-8_21}
+}
+
+@inproceedings{kadota2022deep,
+  title={Deep Bayesian Active Learning to Rank for Endoscopic Image Data},
+  abstract={Automatic image-based disease severity estimation generally uses discrete (i.e., quantized) severity labels. Annotating discrete labels is often difficult due to the images with ambiguous severity. An easier alternative is to use relative annotation, which compares the severity level between image pairs. By using a learning-to-rank framework with relative annotation, we can train a neural network that estimates rank scores that are relative to severity levels. However, the relative annotation for all possible pairs is prohibitive, and therefore, appropriate sample pair selection is mandatory. This paper proposes a deep Bayesian active-learning-to-rank, which trains a Bayesian convolutional neural network while automatically selecting appropriate pairs for relative annotation. We confirmed the efficiency of the proposed method through experiments on endoscopic images of ulcerative colitis. In addition, we confirmed that our method is useful even with the severe class imbalance because of its ability to select samples from minor classes automatically.},
+  author={Kadota, Takeaki and Hayashi, Hideaki and Bise, Ryoma and Tanaka, Kiyohito and Uchida, Seiichi},
+  booktitle={Proceedings of the 26th UK Conference on Medical Image Understanding and Analysis (MIUA 2022)},
+  pages={609--622},
+  year={2022},
+  URL={https://link.springer.com/chapter/10.1007/978-3-031-12053-4_45}
+}
+
 
 @inproceedings{xiang2023care,
   title={CARE-MI: Chinese benchmark for misinformation evaluation in maternity and infant care},
