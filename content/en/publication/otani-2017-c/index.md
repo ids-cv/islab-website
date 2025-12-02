@@ -6,7 +6,7 @@ authors:
 - Tomokazu Sato
 - Naokazu Yokoya
 date: '2017-05-01'
-publishDate: '2024-01-15T05:00:59.858037Z'
+publishDate: '2025-12-02T00:44:14.090875Z'
 publication_types:
 - article-journal
 publication: '*Multimedia Tools and Applications*'

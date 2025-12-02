@@ -9,7 +9,7 @@ authors:
 - H. Nagahara
 - S. Ono
 date: '2019-01-01'
-publishDate: '2024-01-15T05:01:01.720262Z'
+publishDate: '2025-12-02T00:44:15.994673Z'
 publication_types:
 - book
 publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes

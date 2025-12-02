@@ -6,7 +6,7 @@ authors:
 - Mayu Otani
 - Yuta Nakashima
 date: '2019-01-01'
-publishDate: '2024-01-15T05:01:00.013781Z'
+publishDate: '2025-12-02T00:44:14.250492Z'
 publication_types:
 - paper-conference
 publication: '*画像の認識・理解シンポジウム(MIRU2019)論文集*'

@@ -5,7 +5,7 @@ authors:
 - Chenhui Chu
 - Yuta Nakashima
 date: '2020-09-01'
-publishDate: '2024-01-15T05:01:01.193612Z'
+publishDate: '2025-12-02T00:44:15.450749Z'
 publication_types:
 - article-journal
 publication: '*Neurocomputing*'
