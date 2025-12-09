@@ -10,7 +10,7 @@ authors:
 - Hajime Nagahara
 - Takao Fujikawa
 date: '2022-01-01'
-publishDate: '2025-12-02T05:07:23.170067Z'
+publishDate: '2025-12-09T01:20:21.069156Z'
 publication_types:
 - article-journal
 publication: '*SN Computer Science*'

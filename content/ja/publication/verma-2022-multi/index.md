@@ -6,7 +6,7 @@ authors:
 - Noriko Takemura
 - Hajime Nagahara
 date: '2022-01-01'
-publishDate: '2025-12-02T05:07:24.932840Z'
+publishDate: '2025-12-09T01:20:22.831838Z'
 publication_types:
 - paper-conference
 publication: '*Artificial Intelligence in Education: 23rd International Conference,

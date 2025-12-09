@@ -12,7 +12,7 @@ authors:
 - Chisato Mori
 - Toshio Tsuji
 date: '2025-01-01'
-publishDate: '2025-12-02T05:07:24.691676Z'
+publishDate: '2025-12-09T01:20:22.596188Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the IEEE/SICE International Symposium on System Integration

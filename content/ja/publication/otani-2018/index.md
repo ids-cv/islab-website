@@ -8,7 +8,7 @@ authors:
 - Tomokazu Sato
 - Naokazu Yokoya
 date: '2018-10-01'
-publishDate: '2025-12-02T05:07:25.430491Z'
+publishDate: '2025-12-09T01:20:23.327471Z'
 publication_types:
 - article-journal
 publication: '*IEICE Transactions on Information and Systems*'
