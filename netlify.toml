@@ -15,6 +15,36 @@
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
+[[redirects]]
+  from = "/"
+  to = "https://is.d3c.osaka-u.ac.jp/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en"
+  to = "https://is.d3c.osaka-u.ac.jp/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/"
+  to = "https://is.d3c.osaka-u.ac.jp/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ja"
+  to = "https://is.d3c.osaka-u.ac.jp/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ja/"
+  to = "https://is.d3c.osaka-u.ac.jp/"
+  status = 301
+  force = true
+
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
