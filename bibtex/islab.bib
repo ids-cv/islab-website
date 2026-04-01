@@ -1,3 +1,28 @@
+@inproceedings{nishimura2025learning,
+  abstract={Gene expression estimation from pathology images has the potential to reduce the RNA sequencing cost.
+Point-wise loss functions have been widely used to minimize the discrepancy between predicted and absolute gene expression values. 
+However, due to the complexity of the sequencing techniques and intrinsic variability across cells, the observed gene expression contains stochastic noise and batch effects, and estimating the absolute expression values accurately remains a significant challenge.
+To mitigate this, we propose a novel objective of learning relative expression patterns rather than absolute levels.
+We assume that the relative expression levels of genes exhibit consistent patterns across independent experiments, even when absolute expression values are affected by batch effects and stochastic noise in tissue samples.
+Based on the assumption, we model the relation and propose a novel loss function called STRank that is robust to noise and batch effects.
+Experiments using synthetic datasets and real datasets demonstrate the effectiveness of the proposed method.
+The code is available at https://github.com/naivete5656/STRank.},
+  title={Learning Relative Gene Expression Trends from Pathology Images in Spatial Transcriptomics},
+  author={Nishimura, Kazuya and Hirose, Haruka and Bise, Ryoma and Shiku, Kaito and Kojima, Yasuhiro},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems (Neurips)},
+  year={2025}
+}
+
+@inproceedings{shiku2025auxiliary,
+  abstract={Spatial transcriptomics (ST) is a novel technology that enables the observation of gene expression at the resolution of individual spots within pathological tissues. ST quantifies the expression of tens of thousands of genes in a tissue section; however, heavy observational noise is often introduced during measurement. In prior studies, to ensure meaningful assessment, both training and evaluation have been restricted to only a small subset of highly variable genes, and genes outside this subset have also been excluded from the training process. However, since there are likely co-expression relationships between genes, low-expression genes may still contribute to the estimation of the evaluation target. In this paper, we propose Auxiliary Gene Learning (AGL) that utilizes the benefit of the ignored genes by reformulating their expression estimation as auxiliary tasks and training them jointly with the primary tasks. To effectively leverage auxiliary genes, we must select a subset of auxiliary genes that positively influence the prediction of the target genes. However, this is a challenging optimization problem due to the vast number of possible
+combinations. To overcome this challenge, we propose PriorKnowledge-Based Differentiable Top-k Gene Selection via Bi-level Optimization (DkGSB), a method that ranks genes by leveraging prior knowledge and relaxes the combinatorial
+selection problem into a differentiable top-k selection problem. The experiments confirm the effectiveness of incorporating auxiliary genes and show that the proposed method outperforms conventional auxiliary task learning approaches.},
+  title={Auxiliary Gene Learning: Spatial Gene Expression Estimation by Auxiliary Gene Selection},
+  author={Shiku, Kaito and Nishimura, Kazuya and Matsuo, Shinnosuke and Kojima, Yasuhiro and Bise, Ryoma},
+  booktitle={Proceedings of the {AAAI} Conference on Artificial Intelligence},
+  year={2025}
+}
+
 @article{hayashi2024hybrid,
   title={A Hybrid of Generative and Discriminative Models Based on the Gaussian-coupled Softmax Layer},
   abstract={Generative models offer advantageous characteristics for classification tasks, such as the availability of unsupervised data and calibrated confidence. In contrast, discriminative models have advantages in terms of their potential to outperform their generative counterparts and the simplicity of their model structures and learning algorithms. In this article, we propose a method to train a hybrid of discriminative and generative models in a single neural network (NN), which exhibits the characteristics of both models. The key idea is the Gaussian-coupled softmax layer, which is a fully connected layer with a softmax activation function coupled with Gaussian distributions. This layer can be embedded into an NN-based classifier and allows the classifier to estimate both the class posterior distribution and the input data distribution. We demonstrate that the proposed hybrid model can be applied to semi-supervised learning and confidence calibration.},
@@ -1977,3 +2002,4 @@ url = {http://journals.lww.com/00005792-201906210-00044},
 volume = {98},
 year = {2019}
 }
+

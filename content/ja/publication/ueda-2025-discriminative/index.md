@@ -9,7 +9,7 @@ authors:
 - Hideaki Hayashi
 - Toshio Tsuji
 date: '2025-01-01'
-publishDate: '2025-12-02T05:07:24.699824Z'
+publishDate: '2025-12-09T01:20:22.603719Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the IEEE/SICE International Symposium on System Integration

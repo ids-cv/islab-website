@@ -6,7 +6,7 @@ authors:
 - Hideaki Hayashi
 - Hajime Nagahara
 date: '2024-01-01'
-publishDate: '2025-12-02T05:07:22.970251Z'
+publishDate: '2025-12-09T01:20:20.868402Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the International Conference on Automatic Face and Gesture

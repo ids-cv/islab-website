@@ -4,7 +4,7 @@ title: A Hybrid of Generative and Discriminative Models Based on the Gaussian-co
 authors:
 - Hideaki Hayashi
 date: '2025-01-01'
-publishDate: '2025-12-02T05:07:24.644105Z'
+publishDate: '2025-12-09T01:20:22.552295Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Neural Networks and Learning Systems*'
